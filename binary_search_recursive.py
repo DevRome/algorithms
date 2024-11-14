@@ -9,7 +9,7 @@ def binary_search_recursive(list, target):
         midpoint = (len(list)) // 2  # // restituisce solo parte intera
         
         # se il midpoint coincide con il target, restituisce il midpoint
-        if list[midpoint] == target: return midpoint
+        if list[midpoint] == target: return True
 
         else:
             if list[midpoint] < target: return binary_search_recursive(list[midpoint+1:], target)
@@ -17,6 +17,6 @@ def binary_search_recursive(list, target):
 
 
 list = [1,2,3,4,5,6,7,8,9,10]
-target = 5
+target = 7
 result = binary_search_recursive(list, target)
 print(result)

@@ -1,3 +1,5 @@
+# Binary Search 
+
 def binary_search(list, target):
     first = 0 # primo elemento della lista
     last = len(list) - 1 # ultimo elemento della lista (partendo da 0)
