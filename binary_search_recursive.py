@@ -1,3 +1,7 @@
+# .:: Binary Search Recursive ::.
+# Algorithms and Data Structures Tutorial - Full course for beginners 
+# Youtube - FreeCode Camp
+
 def binary_search_recursive(list, target):
     
     # se la lista è vuota restituisce False

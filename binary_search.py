@@ -1,4 +1,6 @@
-# Binary Search 
+# .:: Binary Search ::.
+# Algorithms and Data Structures Tutorial - Full course for beginners 
+# Youtube - FreeCode Camp
 
 def binary_search(list, target):
     first = 0 # primo elemento della lista

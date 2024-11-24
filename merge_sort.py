@@ -1,4 +1,6 @@
 # .:: Merge Sort ::.
+# Algorithms and Data Structures Tutorial - Full course for beginners 
+# Youtube - FreeCode Camp
 
 def merge_sort(list):
     # sort a list in ascending order
@@ -52,6 +54,7 @@ def merge(left, right):
         j += 1
     
     return l
+
 
 # lista da ordinare
 list = [1,3,2,6,5,9,8,7]

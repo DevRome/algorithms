@@ -1,4 +1,6 @@
 # Linear search 
+# Algorithms and Data Structures Tutorial - Full course for beginners 
+# Youtube - FreeCode Camp
 
 def linear_search(list, target):
     for i in range(0, len(list)):
